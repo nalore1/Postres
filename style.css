@@ -226,7 +226,18 @@ a {
     font-size: 25px;
   }
 
-  footer {
-    display: none;
+  /*--------------FOOTER--------------*/
+  .foot__contenido {
+    flex-direction: column;
+  }
+
+  .foot__img {
+    margin: 10px 0;
+    display: flex;
+    justify-content: center;
+  }
+  .whatsapp,
+  .instagram {
+    margin-right: 15px;
   }
 }
