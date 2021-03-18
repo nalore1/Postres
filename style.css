@@ -165,20 +165,20 @@ a {
 
   .menuBurger {
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
     background-color: pink;
     width: 100%;
     height: 50px;
   }
 
   .menuBurger img {
-    margin: 10px 0;
+    margin: 10px 15px;
   }
 
   /*--------------BANNER--------------*/
   .banner {
     margin-top: 20px;
-    height: 15vh;
+    height: 25vh;
   }
 
   .banner__contenido {
@@ -245,6 +245,7 @@ a {
   /*--------------FOOTER--------------*/
   .foot__contenido {
     flex-direction: column;
+    align-items: center;
   }
 
   .foot__img {
@@ -255,5 +256,39 @@ a {
   .whatsapp,
   .instagram {
     margin-right: 15px;
+  }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 1000px) {
+  /*--------------BANNER--------------*/
+  .banner {
+    margin-top: 20px;
+    height: 25vh;
+  }
+
+  .banner__contenido {
+    width: 90%;
+    height: 100%;
+  }
+
+  .img_contenidor {
+    margin-top: 10px;
+    width: 90%;
+    height: 90%;
+    object-fit: cover;
+  }
+
+  /*--------------CONTENIDO EXTRA--------------*/
+  .info1__img {
+    width: 200px;
+    height: 200px;
+  }
+  .info2__img {
+    width: 200px;
+    height: 200px;
+  }
+  .info3__img {
+    width: 200px;
+    height: 200px;
   }
 }
