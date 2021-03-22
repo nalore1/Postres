@@ -1,0 +1,70 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.contenedor {
+  width: 80%;
+  height: 600px;
+  margin: 30px auto;
+  border: 1px solid black;
+  border-radius: 40px;
+  background-color: rgba(220, 20, 60, 0.411);
+}
+
+.izq {
+  width: 60%;
+  text-align: center;
+}
+
+.mini {
+  margin-top: 25px;
+  color: aqua;
+  font-size: 30px;
+}
+.izq__postreimg {
+  margin-top: 30px;
+  width: 50%;
+  height: 300px;
+  border-radius: 50px;
+}
+
+.izq__postretext {
+  margin-top: 30px;
+  font-size: 25px;
+  margin-left: 10px;
+}
+
+.dere {
+  width: 40%;
+  margin-left: 30px;
+  margin-top: 50px;
+}
+
+.form {
+  text-align: center;
+  width: 100%;
+  height: 400px;
+  font-size: 30px;
+}
+
+label,
+select {
+  margin-top: 30px;
+}
+
+select {
+  margin-left: 160px;
+  width: 200px;
+  height: 40px;
+}
+
+.boton {
+  text-align: center;
+  width: 100%;
+  height: 100px;
+}
+
+.card2 {
+  width: 400px;
+}
