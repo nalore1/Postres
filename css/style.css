@@ -362,19 +362,18 @@ a {
   /*-----------------PAGINA NOSOTROS---------------------*/
 
   .contNosotros {
-    height: 800px;
+    width: 80%;
+    height: 600px;
     overflow: scroll;
-    margin-bottom: 380px;
+    margin: 10px auto;
   }
   .contNosotros img {
     width: 100%;
+    height: 300px;
     border-radius: 30px;
-    float: left;
-    margin: 0 30px 15px 0;
   }
-
   .contNosotros__text {
-    height: 600px;
+    height: 100%;
   }
 
   /*-----------------PAGINA PRODUCTOS---------------------*/
