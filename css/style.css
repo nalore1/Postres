@@ -37,11 +37,13 @@ ul {
 }
 
 li {
-  font-size: 20px;
-  font-weight: bolder;
+  font-size: 25px;
+  font-weight: bold;
+  font-style: italic;
   text-decoration: none;
   display: inline;
   margin-right: 60px;
+  color: palevioletred;
 }
 
 a {
@@ -172,31 +174,31 @@ a {
 /*                PAGINA PRODUCTOS                    */
 /*                                                    */
 /*----------------------------------------------------*/
-.contenedor {
+.conteDAD {
+  background-color: aquamarine;
+  width: 90%;
+  height: 950px;
+  margin: 30px auto;
   display: flex;
-  justify-content: space-evenly;
 }
 
-.contenedor2 {
-  display: flex;
-  justify-content: center;
+.contedere {
+  width: 80%;
 }
-
-.cat {
-  margin: 100px 50px 0 50px;
-  width: 200px;
-  height: 200px;
+.conteizq {
+  width: 90%;
 }
 
 .conte__produ2 {
-  width: 16%;
-  height: 400px;
+  width: 80%;
+  height: 250px;
   border: 2px solid black;
-  margin: 20px;
   border-radius: 20px;
   padding: 10px 10px 0 10px;
   text-align: center;
   background-color: thistle;
+
+  margin: 30px;
 }
 
 .conte2_img {
@@ -207,47 +209,34 @@ a {
   margin-left: 10px;
 }
 
-.partup {
-  display: flex;
-  justify-content: space-evenly;
+h2 {
+  color: aqua;
+  font-weight: bolder;
+  font-size: 25px;
 }
 
-select {
-  border-radius: 10px;
-  background-color: turquoise;
-  height: 25px;
-  width: 85px;
-  margin-top: 5px;
-}
-fieldset {
-  border: none;
-}
-.cuadro1,
-.cuadro2,
-.cuadro3 {
-  width: 100px;
-  height: 80px;
-}
-
-.card2,
-.ingredientes2 {
+.card2 {
   border: none;
   background-color: lightseagreen;
-  width: 110px;
-  height: 50px;
+  width: 150px;
+  height: 40px;
   color: white;
   font-size: 20px;
   font-weight: bolder;
   box-shadow: 5px 5px rgba(128, 128, 128, 0.411);
+  border-radius: 30px;
 }
 
 .card2:hover {
   background-color: rgb(170, 149, 170);
 }
-.ingredientes2:hover {
-  background-color: rgb(170, 149, 170);
-}
 
+/* --------------------------------------------------------- */
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
 /*----------------------------------------------------*/
 /*                                                    */
 /*              MEDIA QUERY PRINCIPAL                 */
@@ -264,6 +253,9 @@ fieldset {
     height: 150px;
     display: flex;
     justify-content: center;
+  }
+  ul {
+    padding: 10px;
   }
 
   .logo {
@@ -386,27 +378,19 @@ fieldset {
   }
 
   /*-----------------PAGINA PRODUCTOS---------------------*/
-  .contenedor {
+  .conteDAD {
+    display: flex;
     flex-direction: column;
+    height: 100%;
   }
-
+  .contedere {
+    width: 100%;
+  }
+  .conteizq {
+    width: 100%;
+  }
   .conte__produ2 {
-    width: 80%;
-    height: 400px;
-  }
-  .card2,
-  .ingredientes2 {
-    width: 90px;
-    height: 40px;
-    font-size: 15px;
-    border-radius: 10px;
-  }
-  .contenedor2 {
-    flex-direction: column;
-  }
-
-  .cat {
-    display: none;
+    margin: 20px auto;
   }
 }
 
