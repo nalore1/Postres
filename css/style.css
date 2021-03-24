@@ -561,4 +561,45 @@ a {
     margin-left: 20px;
     width: 90%;
   }
+  /*-----------------PAGINA Galeria---------------------*/
+  .galeria__conte {
+    background-color: rgba(255, 0, 191, 0.583);
+    grid-template-columns: 300px 300px;
+    grid-template-rows: 1fr 1fr;
+    justify-content: center;
+    padding-bottom: 20px;
+  }
+
+  .a {
+    margin-top: 20px;
+    grid-row: 1/2;
+    grid-column: 1/2;
+  }
+  .a img {
+    width: 100%;
+  }
+
+  .b {
+    margin-top: 20px;
+    grid-row: 1/2;
+    grid-column: 2/3;
+  }
+
+  .c {
+    margin-top: 20px;
+    grid-row: 2/3;
+    grid-column: 1/2;
+  }
+
+  .d {
+    margin-top: 20px;
+    grid-row: 2/3;
+    grid-column: 2/3;
+  }
+
+  .e {
+    margin-top: 20px;
+    grid-row: 6/7;
+    grid-column: 1/3;
+  }
 }
